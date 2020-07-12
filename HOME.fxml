@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="invmanagement.HOMEController">
+  <children>
+    <Button id="button" fx:id="add" layoutX="95.0" layoutY="242.0" onAction="#handleAddAction" prefHeight="150.0" prefWidth="150.0" text="ADD" />
+    <Button id="button" fx:id="update" layoutX="325.0" layoutY="242.0" onAction="#handleUpdateAction" prefHeight="150.0" prefWidth="150.0" text="UPDATE" />
+    <Button id="button" fx:id="bill" layoutX="558.0" layoutY="242.0" onAction="#handleBillAction" prefHeight="150.0" prefWidth="150.0" text="BILL" />
+  </children>
+</AnchorPane>
